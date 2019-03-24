@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon_calendar</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.6">
+        <g id="01---Home-Light" transform="translate(-385.000000, -367.000000)" fill="#333333">
+            <g id="Header">
+                <g id="Events" transform="translate(335.000000, 228.000000)">
+                    <g id="Group" transform="translate(50.000000, 139.000000)">
+                        <path d="M23.75,16.25 L23.75,23.75 L16.25,23.75 L16.25,16.25 L23.75,16.25 Z M21.25,0 L25,0 L25,2.5 L26.875,2.5 C27.70834,2.5 28.437495,2.812495 29.0625,3.4375 C29.687505,4.062505 30,4.791665 30,5.625 L30,26.875 C30,27.7083375 29.687505,28.437497 29.0625,29.0625 C28.437495,29.6875031 27.70834,30 26.875,30 L3.125,30 C2.2916625,30 1.562503,29.6875031 0.9375,29.0625 C0.3124969,28.437497 0,27.7083375 0,26.875 L0,5.625 C0,4.791665 0.3124969,4.062505 0.9375,3.4375 C1.562503,2.812495 2.2916625,2.5 3.125,2.5 L5,2.5 L5,0 L8.75,0 L8.75,2.5 L21.25,2.5 L21.25,0 Z M26.875,26.875 L26.875,10.3125 L3.125,10.3125 L3.125,26.875 L26.875,26.875 Z" id="icon_calendar"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
