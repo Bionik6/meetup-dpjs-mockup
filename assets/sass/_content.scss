@@ -1,3 +1,7 @@
+body.light { background: white; }
+body.dark { background: #292A2E; }
+body { transition: all 0.4s ease-in-out; }
+
 #meetups {
   margin-top: -80px;
   li {
@@ -9,14 +13,7 @@
       border-bottom-right-radius: 40px;
     }
   }
-
   margin-bottom: 100px;
-}
-
-
-body {
-  position: relative;
-  min-height: 100vh;
 }
 
 footer {

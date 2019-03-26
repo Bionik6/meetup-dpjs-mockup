@@ -35,3 +35,18 @@ header p {
     font-family: 'Montserrat', sans-serif;
   }
 }
+
+
+#theme-switcher {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.light #theme-switcher {
+  background: url(../img/icons/icon_sun.svg) center center no-repeat;
+}
+
+.dark #theme-switcher {
+  background: url(../img/icons/icon_moon.svg) center center no-repeat;
+}

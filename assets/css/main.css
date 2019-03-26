@@ -92,6 +92,32 @@ header p input {
   font-family: 'Montserrat', sans-serif;
 }
 
+#theme-switcher {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.light #theme-switcher {
+  background: url(../img/icons/icon_sun.svg) center center no-repeat;
+}
+
+.dark #theme-switcher {
+  background: url(../img/icons/icon_moon.svg) center center no-repeat;
+}
+
+body.light {
+  background: white;
+}
+
+body.dark {
+  background: #292A2E;
+}
+
+body {
+  transition: all 0.4s ease-in-out;
+}
+
 #meetups {
   margin-top: -80px;
   margin-bottom: 100px;
@@ -107,11 +133,6 @@ header p input {
 
 #meetups li:last-child .event {
   border-bottom-right-radius: 40px;
-}
-
-body {
-  position: relative;
-  min-height: 100vh;
 }
 
 footer {
@@ -138,6 +159,7 @@ footer p {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  transition: all 0.4s ease-in-out;
 }
 
 .event .metadata {

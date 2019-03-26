@@ -6,14 +6,14 @@
   <title></title>
 </head>
 
-<body class="light">
+<body class="light" id="body">
 <header>
   <ul>
     <li>
       <div></div>
     </li>
     <li><h3>Meetups</h3></li>
-    <li><a href="javascript:">hello</a></li>
+    <li><a href="javascript:" id="theme-switcher"></a></li>
   </ul>
   <p><input type="text" placeholder="Rechercher un meetup"/></p>
 </header>
@@ -27,7 +27,10 @@
           <li><span class="icon-location"></span> <span>Edacy, Sacré Coeur</span></li>
         </ul>
         <div>
-          <p class="meetup-avatar"><img src="assets/img/meetings/image-dpjs.png" alt="dakar promise js" width="120" height="120"></p>
+          <p class="meetup-avatar"><img src="assets/img/meetings/image-dpjs.png"
+            alt="dakar promise js"
+            width="120"
+            height="120"></p>
         </div>
       </div>
     </li>
@@ -40,7 +43,10 @@
           <li><span class="icon-location"></span> <span>Edacy, Sacré Coeur</span></li>
         </ul>
         <div>
-          <p class="meetup-avatar"><img src="assets/img/meetings/image-dpjs.png" alt="dakar promise js" width="120" height="120"></p>
+          <p class="meetup-avatar"><img src="assets/img/meetings/image-dpjs.png"
+            alt="dakar promise js"
+            width="120"
+            height="120"></p>
         </div>
       </div>
     </li>
@@ -53,7 +59,10 @@
           <li><span class="icon-location"></span> <span>Edacy, Sacré Coeur</span></li>
         </ul>
         <div>
-          <p class="meetup-avatar"><img src="assets/img/meetings/image-dpjs.png" alt="dakar promise js" width="120" height="120"></p>
+          <p class="meetup-avatar"><img src="assets/img/meetings/image-dpjs.png"
+            alt="dakar promise js"
+            width="120"
+            height="120"></p>
         </div>
       </div>
     </li>
@@ -66,7 +75,10 @@
           <li><span class="icon-location"></span> <span>Edacy, Sacré Coeur</span></li>
         </ul>
         <div>
-          <p class="meetup-avatar"><img src="assets/img/meetings/image-dpjs.png" alt="dakar promise js" width="120" height="120"></p>
+          <p class="meetup-avatar"><img src="assets/img/meetings/image-dpjs.png"
+            alt="dakar promise js"
+            width="120"
+            height="120"></p>
         </div>
       </div>
     </li>
@@ -77,5 +89,15 @@
 <footer>
   <p>Pas de droits réservés, faites en ce que vous voulez</p>
 </footer>
+
+<script>
+const buttonClickHandler = (event) => {
+  const bodyElement = document.getElementById('body');
+  bodyElement.className = bodyElement.className == 'light' ? 'dark' : 'light';
+  event.preventDefault()
+}
+const themeSwitcherButton = document.getElementById('theme-switcher');
+themeSwitcherButton.addEventListener('click', buttonClickHandler)
+</script>
 </body>
 </html>
