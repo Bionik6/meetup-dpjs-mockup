@@ -1,0 +1,105 @@
+/***-------------------- DETAILS PAGE STYLE --------------------------***/
+
+#meetups {
+  margin-top: -120px;
+  li {
+    margin-bottom: 24px;
+    &:first-child .event {
+      border-top-left-radius: 40px;
+    }
+    &:last-child .event {
+      border-bottom-right-radius: 40px;
+    }
+  }
+  margin-bottom: 100px;
+}
+
+#meetup-details {
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 5px 30px 2px rgba(0, 0, 0, 0.1);
+  padding: 40px 34px;
+  border-bottom-right-radius: 40px;
+
+  p {
+    font-family: $mainFont;
+  }
+}
+
+#meetup-details ul {
+  .speaker-infos {
+    display: flex;
+    align-items: center;
+
+    p:first-child {
+      margin-right: 10px;
+    }
+    .meta p:first-child {
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .meta p:last-child {
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+
+  .talk-title {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: $main-color;
+    padding-bottom: 40px;
+
+    i.icon-talk {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 2px;
+      background: url(../img/icons/icon_speak.svg);
+    }
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+
+    p.talk-title {
+      padding: 0;
+      border-bottom: none;
+    }
+  }
+}
+
+// LIGHT AND DARK APPEARANCE
+.light #meetup-details {
+  background: $white;
+
+  .meta p:first-child {
+    color: $text-color-light;
+  }
+  .meta p:last-child {
+    color: $secondary-text-color-dark;
+  }
+
+  .talk-title {
+    border-bottom: 1px solid #E3E3F8;
+  }
+}
+
+.dark #meetup-details {
+  background: #313238;
+
+  .meta p:first-child {
+    color: $text-color-dark;
+  }
+  .meta p:last-child {
+    color: $secondary-text-color-light;
+  }
+
+  .talk-title {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}

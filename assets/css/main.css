@@ -53,6 +53,7 @@ table {
   border-spacing: 0;
 }
 
+/***-------------------- HEADER STYLE --------------------------***/
 header {
   background: #5A3CC8 url("../img/illustrations/illustrations.png") top center no-repeat;
   height: 250px;
@@ -106,6 +107,7 @@ header p input {
   background: url(../img/icons/icon_moon.svg) center center no-repeat;
 }
 
+/***-------------------- GLOBAL STYLE --------------------------***/
 body.light {
   background: white;
 }
@@ -118,23 +120,7 @@ body {
   transition: all 0.4s ease-in-out;
 }
 
-#meetups {
-  margin-top: -80px;
-  margin-bottom: 100px;
-}
-
-#meetups li {
-  margin-bottom: 24px;
-}
-
-#meetups li:first-child .event {
-  border-top-left-radius: 40px;
-}
-
-#meetups li:last-child .event {
-  border-bottom-right-radius: 40px;
-}
-
+/***-------------------- FOOTER STYLE --------------------------***/
 footer {
   background: #5A3CC8;
   bottom: 0px;
@@ -149,6 +135,7 @@ footer p {
   line-height: 60px;
 }
 
+/***-------------------- EVENT CARD STYLE --------------------------***/
 .event {
   max-width: 600px;
   height: 230px;
@@ -243,4 +230,117 @@ footer p {
 
 .dark .event .metadata li span:last-child {
   color: rgba(238, 236, 236, 0.7);
+}
+
+#meetups.details li:first-child .event {
+  border-bottom-right-radius: 0;
+}
+
+/***-------------------- DETAILS PAGE STYLE --------------------------***/
+#meetups {
+  margin-top: -120px;
+  margin-bottom: 100px;
+}
+
+#meetups li {
+  margin-bottom: 24px;
+}
+
+#meetups li:first-child .event {
+  border-top-left-radius: 40px;
+}
+
+#meetups li:last-child .event {
+  border-bottom-right-radius: 40px;
+}
+
+#meetup-details {
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 5px 30px 2px rgba(0, 0, 0, 0.1);
+  padding: 40px 34px;
+  border-bottom-right-radius: 40px;
+}
+
+#meetup-details p {
+  font-family: "Montserrat", sans-serif;
+}
+
+#meetup-details ul .speaker-infos {
+  display: flex;
+  align-items: center;
+}
+
+#meetup-details ul .speaker-infos p:first-child {
+  margin-right: 10px;
+}
+
+#meetup-details ul .speaker-infos .meta p:first-child {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#meetup-details ul .speaker-infos .meta p:last-child {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#meetup-details ul .talk-title {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #5A3CC8;
+  padding-bottom: 40px;
+}
+
+#meetup-details ul .talk-title i.icon-talk {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+  background: url(../img/icons/icon_speak.svg);
+}
+
+#meetup-details ul li:last-child {
+  margin-bottom: 0;
+}
+
+#meetup-details ul li:last-child p.talk-title {
+  padding: 0;
+  border-bottom: none;
+}
+
+.light #meetup-details {
+  background: white;
+}
+
+.light #meetup-details .meta p:first-child {
+  color: #333333;
+}
+
+.light #meetup-details .meta p:last-child {
+  color: rgba(51, 51, 51, 0.6);
+}
+
+.light #meetup-details .talk-title {
+  border-bottom: 1px solid #E3E3F8;
+}
+
+.dark #meetup-details {
+  background: #313238;
+}
+
+.dark #meetup-details .meta p:first-child {
+  color: #EEECEC;
+}
+
+.dark #meetup-details .meta p:last-child {
+  color: rgba(238, 236, 236, 0.7);
+}
+
+.dark #meetup-details .talk-title {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }

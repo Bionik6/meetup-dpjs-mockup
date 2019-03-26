@@ -1,21 +1,10 @@
+/***-------------------- GLOBAL STYLE --------------------------***/
+
 body.light { background: white; }
 body.dark { background: #292A2E; }
 body { transition: all 0.4s ease-in-out; }
 
-#meetups {
-  margin-top: -80px;
-  li {
-    margin-bottom: 24px;
-    &:first-child .event {
-      border-top-left-radius: 40px;
-    }
-    &:last-child .event {
-      border-bottom-right-radius: 40px;
-    }
-  }
-  margin-bottom: 100px;
-}
-
+/***-------------------- FOOTER STYLE --------------------------***/
 footer {
   background: $main-color;
   bottom: 0px;

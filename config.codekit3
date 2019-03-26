@@ -157,6 +157,49 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/speakers/speaker-ciss.png": {
+		"ft": 32768,
+		"iS": 11137,
+		"oA": 0,
+		"oAP": "/assets/img/speakers/speaker-ciss.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/speakers/speaker-leyla.png": {
+		"ft": 32768,
+		"iS": 10806,
+		"oA": 0,
+		"oAP": "/assets/img/speakers/speaker-leyla.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/speakers/speaker-thierno.png": {
+		"ft": 32768,
+		"iS": 9625,
+		"oA": 0,
+		"oAP": "/assets/img/speakers/speaker-thierno.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/js/main-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "/assets/js/main-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/assets/js/main.js": {
 		"ft": 64,
 		"ma": 0,
@@ -176,6 +219,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/_content.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/assets/sass/_details.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/css/_details.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
