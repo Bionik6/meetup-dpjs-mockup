@@ -1,0 +1,95 @@
+.event {
+  max-width: 600px;
+  height: 230px;
+  box-shadow: 0 5px 30px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 30px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.event .metadata {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 30px;
+
+  li {
+    margin-bottom: 26px;
+    display: flex;
+    align-items: center;
+    span:last-child {
+      font-family: $mainFont;
+      font-weight: 600;
+      padding-left: 10px;
+      font-size: 15px;
+    }
+  }
+
+  h1 {
+    @include h1;
+    font-weight: 600;
+  }
+
+  .icon-date {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+  }
+
+  .icon-location {
+    display: inline-block;
+    width: 20px;
+    height: 27px;
+  }
+}
+
+.meetup-avatar img {
+  border-radius: 60px;
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
+}
+
+.light .event {
+  background: $white;
+
+  .icon-date {
+    background: url(../img/icons/icon_calendar_light.svg) left center;
+  }
+
+  .icon-location {
+    background: url(../img/icons/icon_place_light.svg);
+  }
+
+  .metadata {
+    h1 {
+      color: $text-color-light;
+    }
+    li span:last-child {
+      color: rgba(51/255, 51/255, 51/255, 0.5)
+    }
+  }
+}
+
+
+.dark .event {
+  background: #313238;
+
+  .icon-date {
+    background: url(../img/icons/icon_calendar_dark.svg) left center;
+  }
+
+  .icon-location {
+    background: url(../img/icons/icon_place_dark.svg);
+  }
+
+  .metadata {
+    h1 {
+      color: $text-color-dark;
+    }
+    li span:last-child {
+      color: rgba(238,236,236,0.7);
+    }
+  }
+}

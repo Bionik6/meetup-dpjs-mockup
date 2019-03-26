@@ -1,0 +1,33 @@
+#meetups {
+  margin-top: -80px;
+  li {
+    margin-bottom: 24px;
+    &:first-child .event {
+      border-top-left-radius: 40px;
+    }
+    &:last-child .event {
+      border-bottom-right-radius: 40px;
+    }
+  }
+
+  margin-bottom: 100px;
+}
+
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+footer {
+  background: $main-color;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+  p {
+    text-align: center;
+    color: white;
+    font-family: $mainFont;
+    line-height: 60px;
+  }
+}

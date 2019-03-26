@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+$mainFont: 'Montserrat', sans-serif;
+
+@mixin h1 {
+  font-family: $mainFont;
+  font-size: 28px;
+}
+
+@mixin h1-on-light {
+  color: $text-color-dark;
+}
+
+@mixin h1-on-dark {
+  color: $text-color-dark;
+}
+
+

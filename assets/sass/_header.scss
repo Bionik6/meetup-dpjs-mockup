@@ -1,0 +1,37 @@
+header {
+  background: $main-color url('../img/illustrations/illustrations.png') top center no-repeat;
+  height: 250px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+header ul {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: $white;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+  }
+}
+
+header p {
+  text-align: center;
+  margin-top: 40px;
+  input {
+    width: 400px;
+    height: 30px;
+    border-radius: 6px;
+    border: 2px solid #321D7C;
+    text-align: center;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
