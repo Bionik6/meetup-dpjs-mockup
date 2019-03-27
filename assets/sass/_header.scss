@@ -38,7 +38,6 @@ header p {
   }
 }
 
-
 #theme-switcher {
   display: inline-block;
   width: 20px;
@@ -46,6 +45,8 @@ header p {
   outline: none;
 }
 
+
+// LIGHT AND DARK APPEARANCE
 .light #theme-switcher {
   background: url(../img/icons/icon_sun.svg) center center no-repeat;
 }

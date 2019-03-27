@@ -55,6 +55,8 @@
   box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
 }
 
+
+// LIGHT AND DARK APPEARANCE
 .light .event {
   background: $white;
 
@@ -76,7 +78,6 @@
     }
   }
 }
-
 
 .dark .event {
   background: #313238;
