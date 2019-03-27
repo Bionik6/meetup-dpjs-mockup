@@ -352,17 +352,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/screenshot.png": {
-		"ft": 32768,
-		"iS": 231852,
-		"oA": 0,
-		"oAP": "/screenshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		}
 	},
 "hooks": [
