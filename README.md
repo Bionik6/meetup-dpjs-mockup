@@ -1,4 +1,4 @@
-# Dakar Promise JS Meetup (03/30/19) #
+# Dakar Promise JS Meetup Template (03/30/19) #
 HTML/CSS(SCSS) mockup of the project we gonna turn in Angular, Vue and React
 
 ![MovieDBSearch](screenshot.png)
