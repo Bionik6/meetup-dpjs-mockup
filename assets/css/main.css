@@ -97,6 +97,7 @@ header p input {
   display: inline-block;
   width: 20px;
   height: 20px;
+  outline: none;
 }
 
 .light #theme-switcher {
